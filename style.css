@@ -1,3 +1,312 @@
- * {
-    background-color: rgb(208, 241, 131);
+@font-face {
+   font-family: "Dancing";
+   src: url(Fonts/Dancing_Script,Qwitcher_Grypen/Dancing_Script/DancingScript-VariableFont_wght.ttf);
+}
+* {
+   margin: 0;
+   padding: 0;
+   background-color: white;
  }
+/* Navbar */
+ .name {
+   width: 100%;
+   background-color: #00bebe;
+   display: flex;
+   justify-content: space-between;
+ }
+ .name h1 {
+   background-color: #00bebe;
+   color: white;
+   padding: 20px;
+   font-family: "Dancing";
+ }
+
+.navlist {
+  background-color: #00bebe;
+  display: flex;
+  align-items: center;
+}
+
+ .navlist li {
+  background-color: #00bebe;
+  list-style: none;
+ }
+
+ .navlist ul {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  gap: 30px;
+  padding: 30px;
+  background-color: #00bebe;
+ }
+
+ .navlist a {
+  background-color: #00bebe;
+  text-decoration: none;
+  color: white;
+ }
+
+ .navlist a:hover {
+  color: black;
+  font-size: 15px;
+ }
+
+ /* Banner */
+.banner {
+  background-image: url(Images/banner.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+@keyframes heading {
+  0%{color: #333399;}
+  20%{color: #9966ff;}
+  40%{color: violet;}
+  60%{color: pink;}
+  80%{color: #ff5050;}
+  100%{color: #333399;}
+}
+
+.banner h1 {
+  background: none;
+  color: white;
+  font-size: 4.5vw;
+  font-weight: 100;
+  animation: heading 5s linear infinite;
+}
+
+.banner p {
+  background: none;
+  color: white;
+  font-size: 2vw;
+  animation: heading 5s linear infinite;
+}
+
+.small {
+  background: none;
+}
+
+.search {
+  background: none;
+  width: 45vw;
+  height: 6vh;
+  display: flex;
+}
+
+.search img {
+  height: 2.5vh;
+  background: none;
+}
+
+.search input {
+  height: 100%;
+  width: 70%;
+  border: none;
+}
+
+.search input:hover {
+  border: 1px solid white;
+  height: 95%;
+  width: 70%;
+}
+
+.search button {
+  height: 100%;
+  width: 30%;
+  background-color: #00b3b3;
+  border: none;
+  font-size: 3vh;
+  color: black;
+  border: 1px solid #00b3b3;
+}
+
+.search a {
+  background: none;
+  color: black;
+  text-decoration: none;
+}
+
+.search button:hover {
+  background: none;
+  font-size: 3.2vh;
+  border: 2.5px solid #00b3b3;
+}
+
+/* Boxes */
+
+.boxes {
+  width: 100%;
+  height: auto;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  grid-template-rows: repeat(3,1fr);
+}
+
+.box {
+  width: 90%;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1vh;
+  padding: 1vh;
+  border: 5px solid #00b3b3;
+}
+
+.box h1 ,.box a{
+  background: none;
+  color: white;
+  text-decoration: none;
+}
+
+@keyframes simple {
+    0%{transform: scale(1);}
+    50%{transform: scale(1.2);}
+    100%{transform: scale(1);}
+}
+
+.box a:hover, .box h1:hover {
+  animation: simple 2s ease-in-out infinite;
+}
+
+@keyframes easy {
+    0%{border-color: #333399;}
+    20%{border-color: #9966ff;}
+    40%{border-color: violet;}
+    60%{border-color: pink;}
+    80%{border-color: #ff5050;}
+    100%{border-color: #333399;}
+}
+
+.box:hover {
+  animation: easy 1s linear infinite;
+}
+
+#box1 {
+  background-image: url(Images/logo\ background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#box2 {
+  background-image: url(Images/mechnical.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#box3 {
+  background-image: url(Images/electrical.jfif);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#box4 {
+  background-image: url(Images/electronic.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#box5 {
+  background-image: url(Images/information\ technology.jfif);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#box6 {
+  background-image: url(Images/civil.jfif);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#box7 {
+  background-image: url(Images/maths.jfif);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#box8 {
+  background-image: url(Images/physics.jfif);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#box9 {
+  background-image: url(Images/chemistry.jfif);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#box10 {
+  background-image: url(Images/soft\ skill.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#box11 {
+  background-image: url(Images/training.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#box12 {
+  background-image: url(Images/reasoning.jfif);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Footer */
+
+.footer {
+  display: flex;
+  gap: 2vh;
+  justify-content: space-between;
+  background-color: #00b3b3;
+  padding: 5%;
+}
+
+.footer h3, .footer a, .footer p{
+  background: none;
+}
+
+.footer a {
+  color: black;
+  text-decoration: none;
+}
+
+.library {
+  display: flex;
+  gap: 2vh;
+  flex-direction: column;
+  align-items: center;
+  background-color: #00b3b3;
+}
+
+.discover {
+  display: flex;
+  gap: 2vh;
+  flex-direction: column;
+  align-items: center;
+  background-color: #00b3b3;
+}
+
+.develop {
+  display: flex;
+  gap: 2vh;
+  flex-direction: column;
+  align-items: center;
+  background-color: #00b3b3;
+}
+
+.help {
+  display: flex;
+  gap: 2vh;
+  flex-direction: column;
+  align-items: center;
+  background-color: #00b3b3;
+}
