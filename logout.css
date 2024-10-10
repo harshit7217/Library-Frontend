@@ -1,0 +1,139 @@
+@font-face {
+    font-family: "Dancing";
+    src: url(Fonts/Dancing_Script,Pacifico/Dancing_Script/DancingScript-VariableFont_wght.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #00b3b3;
+}
+
+.nav {
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
+
+.nav h1 {
+    font-family: "Dancing";
+    color: #fff;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+}
+
+.alpha a{
+    padding: 2vw;
+}
+
+.alpha a:hover {
+    color: black;
+}
+
+main {
+    background-color: #d9d9d9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2vw;
+    height: 35vh;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.btn1 {
+    background-color: #000;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    width: 150px;
+    justify-content: center;
+}
+
+.btn2 {
+    background-color: #00b3b3;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    width: 150px;
+    justify-content: center;
+}
+
+.button .btn1:hover {
+    color: #00b3b3;
+}
+
+.button .btn2:hover {
+    color: #000;
+}
+
+/* Footer */
+
+.footer {
+    display: flex;
+    gap: 2vh;
+    justify-content: space-between;
+    background-color: #00b3b3;
+    padding: 5%;
+  }
+  
+  .footer h3, .footer a, .footer p{
+    background: none;
+  }
+  
+  .footer a {
+    color: black;
+    text-decoration: none;
+  }
+  
+  .library {
+    display: flex;
+    gap: 2vh;
+    flex-direction: column;
+    align-items: center;
+    background-color: #00b3b3;
+  }
+  
+  .discover {
+    display: flex;
+    gap: 2vh;
+    flex-direction: column;
+    align-items: center;
+    background-color: #00b3b3;
+  }
+  
+  .develop {
+    display: flex;
+    gap: 2vh;
+    flex-direction: column;
+    align-items: center;
+    background-color: #00b3b3;
+  }
+  
+  .help {
+    display: flex;
+    gap: 2vh;
+    flex-direction: column;
+    align-items: center;
+    background-color: #00b3b3;
+  }

@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    background-color: #00b3b3;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: center;
+    align-items: center;
+    padding: 10vh;
+    grid-template-rows: repeat(auto,1fr);
+}
+
+.heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 20vh;
+    color: white;
+}
+
+.heading h1 {
+    font-size: 2.5vw;
+}
+
+.para p {
+    font-size: 1.5vw;
+}
+
+.image {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content:space-around;
+}
+
+.image img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.button {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    position: absolute;
+    bottom: 49%;
+}
+
+.button button {
+    width: 17vw;
+    height: 7vh;
+    background-color: #bcf2f6;
+    border: 4px solid #bcf2f6;
+}
+
+.button a {
+    text-decoration: none;
+    color: black;
+}
+
+ .button button:hover {
+    background-color: #fff;
+    border: 4px solid #fff;
+}
+
+/* Account Information */
+
+.account {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 100%;
+}
+
+.first {
+    background-color: #d9d9d9;
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+    width: 180%;
+    height: 50vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.alpha {
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+}
+
+th {
+    background-color: #00b3b3;
+    color: White;
+} 
+
+table,th,td {
+    border: 1px solid black;
+    text-align: center;
+    padding: 2px;
+}
+
+td {
+    background-color: #d9d9d9;
+}
+
+/* Footer */
+
+.footer {
+    display: flex;
+    gap: 2vh;
+    justify-content: space-between;
+    background-color: #00b3b3;
+    padding: 5%;
+  }
+  
+  .footer h3, .footer a, .footer p{
+    background: none;
+  }
+  
+  .footer a {
+    color: black;
+    text-decoration: none;
+  }
+  
+  .library {
+    display: flex;
+    gap: 2vh;
+    flex-direction: column;
+    align-items: center;
+    background-color: #00b3b3;
+  }
+  
+  .discover {
+    display: flex;
+    gap: 2vh;
+    flex-direction: column;
+    align-items: center;
+    background-color: #00b3b3;
+  }
+  
+  .develop {
+    display: flex;
+    gap: 2vh;
+    flex-direction: column;
+    align-items: center;
+    background-color: #00b3b3;
+  }
+  
+  .help {
+    display: flex;
+    gap: 2vh;
+    flex-direction: column;
+    align-items: center;
+    background-color: #00b3b3;
+  }
