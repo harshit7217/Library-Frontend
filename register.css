@@ -1,0 +1,185 @@
+@font-face {
+    font-family: "Designer";
+    src: url(Fonts/Dancing_Script,Qwitcher_Grypen/Dancing_Script/DancingScript-VariableFont_wght.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+.nav {
+    display: flex;
+    gap: 20px;
+    justify-content: flex-end;
+    margin: 10px 10px 0 0;
+}
+
+.box1 {
+    border: 1px solid black;
+    background-color: black;
+    width: 130px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Designer";
+}
+
+.box1 a {
+    background-color: black;
+}
+
+.box2 {
+    border: 1px solid #00b3b3;
+    background-color: #00b3b3;
+    width: 130px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Designer";
+}
+
+.box2 a {
+    background-color: #00b3b3;
+}
+.nav a {
+    text-decoration: none;
+    color:  white;
+}
+
+.box1 a:hover {
+    color: #00b3b3;
+}
+
+.box2 a:hover {
+    color: black;
+}
+
+/* Registration */
+
+.main {
+    display: flex;
+    margin: 50px;
+    justify-content: center;
+}
+
+.container {
+    padding: 50px;
+    box-shadow: 5px 5px 0 #00b3b3;
+    background-color: white;
+}
+
+.heading {
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+    color: #00b3b3;
+    font-family: "Designer";
+    font-size: larger;
+    background-color: white;
+}
+
+.heading h1 {
+    background-color: white;
+}
+
+.message {
+    display: flex;
+    justify-content: center;
+    color: #00b3b3;
+    font-family: "Designer";
+    font-size: large;
+    margin-bottom: 5px;
+    background-color: white;
+}
+
+.message h4 {
+    background-color: white;
+}
+
+.boxes {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: white;
+}
+
+.boxes img, .boxes label {
+    background-color: #e0e0d1;
+}
+
+.box {
+    border: 1px solid #e0e0d1;
+    display: flex;
+    justify-content: center;
+    background-color: #e0e0d1;
+    height: 40px;
+    align-items: center;
+    box-shadow: 0 5px 0 #00b3b3;
+}
+
+input {
+    background-color: #e0e0d1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    height: 20px;
+    border: none;
+}
+
+input:hover {
+    border: 1px solid #00b3b3;
+    background-color: #00b3b3;
+    border-radius: 6%;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.button button {
+    width: 100%;
+    height: 40px;
+    background-color: #00b3b3;
+    border: 1px solid #00b3b3;
+}
+
+.button a {
+    text-decoration: none;
+    color: white;
+    font-family: "Designer";
+    font-size: large;
+    background-color: #00b3b3;
+}
+
+.button a:hover {
+    color: black;
+}
+
+.forget {
+    display: flex;
+    justify-content: center;
+    font-family: "Designer";
+    font-size: large;
+    background-color: white;
+}
+
+.forget a {
+    text-decoration: none;
+    color: black;
+    background-color: white;
+}
+
+.forget a:hover {
+    text-decoration: underline;
+}
+
+.forget h4 {
+    background-color: white;
+}
