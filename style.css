@@ -156,7 +156,6 @@
   align-items: center;
   margin: 1vh;
   padding: 1vh;
-  border: 5px solid #00b3b3;
 }
 
 .box h1 ,.box a{
@@ -176,16 +175,12 @@
 }
 
 @keyframes easy {
-    0%{border-color: #333399;}
-    20%{border-color: #9966ff;}
-    40%{border-color: violet;}
-    60%{border-color: pink;}
-    80%{border-color: #ff5050;}
-    100%{border-color: #333399;}
+  0%, 100% { opacity: 0.5; }
+  50% { opacity: 1; }
 }
 
 .box:hover {
-  animation: easy 1s linear infinite;
+  animation: easy 1s infinite;
 }
 
 #box1 {
