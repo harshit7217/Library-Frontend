@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us - Library Monitoring</title>
+    <link rel="stylesheet" href="contact_us.css" />
+  </head>
+  <body>
+    <!-- NavBar -->
+    <section class="nav">
+      <div class="name">
+        <h1>RVIT Library</h1>
+        <div class="navlist">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="my_account.html">My Account</a></li>
+            <li><a href="subject.html">Subjects</a></li>
+            <li><a href="login.html">Login</a></li>
+            <li><a href="register.html">Sign Up</a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <main>
+      <section class="contact-section">
+        <div class="alpha">
+          <h2>Contact Us</h2>
+          <p>
+            If you have any questions or need assistance with our library
+            monitoring system, please reach out to us.
+          </p>
+
+          <form action="submit_form.php" method="POST">
+            <div class="a">
+              <label for="name">Full Name</label>
+              <input type="text" id="name" name="name" required />
+            </div>
+            <div class="a">
+              <label for="email">Email Address</label>
+              <input type="email" id="email" name="email" required />
+            </div>
+            <div class="a">
+              <label for="phone">Phone Number</label>
+              <input type="tel" id="phone" name="phone" />
+            </div>
+            <div class="a">
+              <label for="subject">Subject</label>
+              <input type="text" id="subject" name="subject" required />
+            </div>
+            <div class="a">
+              <label for="message">Your Message</label>
+              <textarea
+                id="message"
+                name="message"
+                rows="4"
+                required
+              ></textarea>
+            </div>
+            <button type="submit"><a href="submit_contact.html">Submit</a></button>
+          </form>
+        </div>
+      </section>
+
+      <section class="contact-details">
+        <div class="details">
+          <h3>Contact Information</h3>
+          <p>Library Address: 123 Library Lane, City, State</p>
+          <p>Email: support@librarymonitor.com</p>
+          <p>Phone: +1 234 567 890</p>
+          <p>Operating Hours: Mon-Fri, 9 AM - 6 PM</p>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+      <div class="footer">
+        <div class="library">
+          <h3>Open Library</h3>
+          <p><a href="">Vision</a></p>
+          <p><a href="">Volunteer</a></p>
+          <p><a href="">Partner with Us</a></p>
+          <p><a href="">Careers</a></p>
+          <p><a href="">Blog</a></p>
+          <p><a href="">Term of Service</a></p>
+          <p><a href="">Donate</a></p>
+        </div>
+        <div class="discover">
+          <h3>Discover</h3>
+          <p><a href="index.html">Home</a></p>
+          <p><a href="">Books</a></p>
+          <p><a href="">Authors</a></p>
+          <p><a href="">Subjects</a></p>
+          <p><a href="">Collections</a></p>
+          <p><a href="">Advanced Search</a></p>
+          <p><a href="index.html">Return to Top</a></p>
+        </div>
+        <div class="develop">
+          <h3>Develop</h3>
+          <p><a href="">Developer Center</a></p>
+          <p><a href="">API Documentation</a></p>
+          <p><a href="">Bulk Data Dumps</a></p>
+          <p><a href="">Writing Bots</a></p>
+        </div>
+        <div class="help">
+          <h3>Help</h3>
+          <p><a href="">Help Center</a></p>
+          <p><a href="">Report a Problem</a></p>
+          <p><a href="">Suggesting Edits</a></p>
+          <p><a href="">Add a Book</a></p>
+          <p><a href="">Release Notes</a></p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
