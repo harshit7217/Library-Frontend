@@ -56,38 +56,41 @@
 
  /* Banner */
 .banner {
-  background-image: url(Images/banner.webp);
-  background-size: cover;
+  background-image: url(Images/banner2.jpg);
+  background-size: 100% 100%;
   background-repeat: no-repeat;
-  height: 50vh;
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  gap: 1vh;
+  animation: light 60s linear infinite;
 }
 
-@keyframes heading {
-  0%{color: #333399;}
-  20%{color: #9966ff;}
-  40%{color: violet;}
-  60%{color: pink;}
-  80%{color: #ff5050;}
-  100%{color: #333399;}
+@keyframes light {
+  0%{background-image: url(Images/banner2.jpg);}
+  14.2%{background-image: url(Images/banner3.jpg);} 
+  28.5%{background-image: url(Images/banner4.jpg);} 
+  42.8%{background-image: url(Images/banner5.jpg);} 
+  57.1%{background-image: url(Images/banner6.jpg);} 
+  71.4%{background-image: url(Images/banner7.jpg);}
+  85.6%{background-image: url(Images/banner8.jpg);}
+  100%{background-image: url(Images/banner2.jpg);} 
 }
 
 .banner h1 {
   background: none;
   color: white;
-  font-size: 4.5vw;
-  font-weight: 100;
-  animation: heading 10s linear infinite;
+  font-size: 4rem;
+  font-weight: 500;
+  text-shadow: .2rem .2rem 1rem;
 }
 
 .banner p {
   background: none;
   color: white;
-  font-size: 2vw;
-  animation: heading 10s linear infinite;
+  font-size: 2.5rem;
 }
 
 .small {
@@ -110,6 +113,7 @@
   height: 100%;
   width: 70%;
   border: none;
+  border-radius: 10px;
 }
 
 .search input:hover {
@@ -126,6 +130,7 @@
   font-size: 3vh;
   color: black;
   border: 1px solid #00b3b3;
+  border-radius: 10px;
 }
 
 .search a {

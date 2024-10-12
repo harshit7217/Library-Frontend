@@ -11,6 +11,7 @@
     align-items: center;
     padding: 10vh;
     grid-template-rows: repeat(auto,1fr);
+    padding-bottom: 9.5vh;
 }
 
 .heading {
@@ -42,7 +43,12 @@
     border-radius: 50%;
 }
 
+/* button */
+
 .button {
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 2px;
     grid-column-start: 1;
     grid-column-end: 3;
     position: absolute;
