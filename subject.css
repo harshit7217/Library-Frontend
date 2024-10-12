@@ -55,119 +55,119 @@
  /* Boxes */
  
  .boxes {
-   width: 100%;
-   height: auto;
-   display: grid;
-   grid-template-columns: repeat(4,1fr);
-   grid-template-rows: repeat(3,1fr);
- }
- 
- .box {
-   width: 90%;
-   height: 50vh;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   margin: 1vh;
-   padding: 1vh;
- }
- 
- .box h1 ,.box a{
-   background: none;
-   color: white;
-   text-decoration: none;
- }
- 
- @keyframes simple {
-     0%{transform: scale(1);}
-     50%{transform: scale(1.2);}
-     100%{transform: scale(1);}
- }
- 
- .box a:hover, .box h1:hover {
-   animation: simple 2s ease-in-out infinite;
- }
- 
- @keyframes easy {
-   0%, 100% { opacity: 0.5; }
-   50% { opacity: 1; }
- }
- 
- .box:hover {
-   animation: easy 1s infinite;
- }
- 
- #box1 {
-   background-image: url(Images/logo\ background.jpg);
-   background-repeat: no-repeat;
-   background-size: cover;
- }
- 
- #box2 {
-   background-image: url(Images/mechnical.jpg);
-   background-repeat: no-repeat;
-   background-size: cover;
- }
- 
- #box3 {
-   background-image: url(Images/electrical.jfif);
-   background-repeat: no-repeat;
-   background-size: cover;
- }
- 
- #box4 {
-   background-image: url(Images/electronic.jpg);
-   background-repeat: no-repeat;
-   background-size: cover;
- }
- 
- #box5 {
-   background-image: url(Images/information\ technology.jfif);
-   background-repeat: no-repeat;
-   background-size: cover;
- }
- 
- #box6 {
-   background-image: url(Images/civil.jfif);
-   background-repeat: no-repeat;
-   background-size: cover;
- }
- 
- #box7 {
-   background-image: url(Images/maths.jfif);
-   background-repeat: no-repeat;
-   background-size: cover;
- }
- 
- #box8 {
-   background-image: url(Images/physics.jfif);
-   background-repeat: no-repeat;
-   background-size: cover;
- }
- 
- #box9 {
-   background-image: url(Images/chemistry.jfif);
-   background-repeat: no-repeat;
-   background-size: cover;
- }
- 
- #box10 {
-   background-image: url(Images/soft\ skill.png);
-   background-repeat: no-repeat;
-   background-size: cover;
- }
- 
- #box11 {
-   background-image: url(Images/training.webp);
-   background-repeat: no-repeat;
-   background-size: cover;
- }
- 
- #box12 {
-   background-image: url(Images/reasoning.jfif);
-   background-repeat: no-repeat;
-   background-size: cover;
- }
+  width: 100%;
+  height: auto;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  grid-template-rows: repeat(3,1fr);
+}
+
+.box {
+  width: 90%;
+  height: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1vh;
+  padding: 1vh;
+}
+
+.box h1 ,.box a{
+  background: none;
+  color: white;
+  text-decoration: none;
+}
+
+@keyframes simple {
+    0%{transform: scale(1);}
+    50%{transform: scale(1.2);}
+    100%{transform: scale(1);}
+}
+
+.box a:hover, .box h1:hover {
+  animation: simple 2s ease-in-out infinite;
+}
+
+@keyframes easy {
+  0%, 100% { opacity: 0.5; }
+  50% { opacity: 1; }
+}
+
+.box:hover {
+  animation: easy 1s infinite;
+}
+
+#box1 {
+  background-image: url(Images/logo\ background.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+#box2 {
+  background-image: url(Images/mechnical.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+#box3 {
+  background-image: url(Images/electrical.jfif);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+#box4 {
+  background-image: url(Images/electronic.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+#box5 {
+  background-image: url(Images/information\ technology.jfif);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+#box6 {
+  background-image: url(Images/civil.jfif);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+#box7 {
+  background-image: url(Images/maths.jfif);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+#box8 {
+  background-image: url(Images/physics.jfif);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+#box9 {
+  background-image: url(Images/chemistry.jfif);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+#box10 {
+  background-image: url(Images/soft\ skill.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+#box11 {
+  background-image: url(Images/training.webp);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+#box12 {
+  background-image: url(Images/reasoning.jfif);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
  
  /* Footer */
  
