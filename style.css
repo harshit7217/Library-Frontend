@@ -65,7 +65,7 @@
   align-items: center;
   flex-direction: column;
   gap: 1vh;
-  animation: light 10s linear infinite;
+  animation: light 20s linear infinite;
 }
 
 @keyframes light {
