@@ -1,0 +1,153 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar */
+.name {
+    width: 100%;
+    background-color: #00bebe;
+    display: flex;
+    justify-content: space-between;
+  }
+  .name h1 {
+    background-color: #00bebe;
+    color: white;
+    padding: 20px;
+    font-family: "Dancing";
+  }
+ 
+ .navlist {
+   background-color: #00bebe;
+   display: flex;
+   align-items: center;
+ }
+ 
+  .navlist li {
+   background-color: #00bebe;
+   list-style: none;
+  }
+ 
+  .navlist ul {
+   display: flex;
+   width: 100%;
+   justify-content: flex-end;
+   gap: 30px;
+   padding: 30px;
+   background-color: #00bebe;
+  }
+ 
+  .navlist a {
+   background-color: #00bebe;
+   text-decoration: none;
+   color: white;
+  }
+ 
+  .navlist a:hover {
+   color: black;
+   font-size: 15px;
+  }
+
+/* products */
+ 
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.book-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    margin: 15px;
+    padding: 15px;
+    text-align: center;
+    transition: transform 0.2s;
+}
+
+.book-card:hover {
+    transform: scale(1.05);
+}
+
+.book-card img {
+    max-width: 100%;
+    border-radius: 10px;
+    height: 30vh;
+}
+
+.book-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.book-author {
+    font-style: italic;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.book-description {
+    font-size: 0.9rem;
+    color: #555;
+}
+
+/* Footer */
+
+.footer {
+  display: flex;
+  gap: 2vh;
+  justify-content: space-between;
+  background-color: #00b3b3;
+  padding: 5%;
+  font-size: small;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.footer h3, .footer a, .footer p{
+  background: none;
+
+}
+
+.footer a {
+  color: black;
+  text-decoration: none;
+}
+
+.library {
+  display: flex;
+  gap: 2vh;
+  flex-direction: column;
+  align-items: center;
+  background-color: #00b3b3;
+}
+
+.discover {
+  display: flex;
+  gap: 2vh;
+  flex-direction: column;
+  align-items: center;
+  background-color: #00b3b3;
+}
+
+.develop {
+  display: flex;
+  gap: 2vh;
+  flex-direction: column;
+  align-items: center;
+  background-color: #00b3b3;
+}
+
+.help {
+  display: flex;
+  gap: 2vh;
+  flex-direction: column;
+  align-items: center;
+  background-color: #00b3b3;
+}
