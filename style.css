@@ -65,7 +65,7 @@
   align-items: center;
   flex-direction: column;
   gap: 1vh;
-  animation: light 60s linear infinite;
+  animation: light 20s linear infinite;
 }
 
 @keyframes light {
@@ -180,6 +180,58 @@
 .text-overlay p {
   font-size: 1.5rem;
   background: none;
+}
+
+/* about */
+#about{
+  margin-top: 1%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#about img {
+  height: 100%;
+  width: 30vw;
+}
+
+.about-heading {
+  background-image: url(Images/about-background.jpg);
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10%;
+  padding-left: 5vw;
+  padding-right: 5vw;
+}
+
+.about-heading h2 {
+  background: none;
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.about-heading p {
+  background: none;
+  font-size: 1.5rem;
+}
+
+.about-small {
+  display: flex;
+  justify-content: space-around;
+}
+
+.s {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.s h2 {
+  font-weight: 900;
 }
 
 /* Boxes */
