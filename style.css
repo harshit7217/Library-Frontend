@@ -285,6 +285,11 @@
   margin: 10px 0;
 }
 
+.book-title a {
+  color: #000;
+  text-decoration: none;
+}
+
 .book-author {
   font-style: italic;
   color: #666;
